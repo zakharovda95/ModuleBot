@@ -30,6 +30,5 @@ internal static class BotSettings
         if (string.IsNullOrEmpty(keyLocal)) return false;
         apiKey = keyLocal;
         return true;
-
     }
 }
